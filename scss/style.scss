@@ -1,5 +1,5 @@
 //import de variables
-@import "../scss/extras/colores";
+@import "../scss/extras/variables";
 
 *{
     margin: 0px;
@@ -54,7 +54,7 @@ div a{
 /* estilos del fondo */
 
 body{
-    background-color: black;
+    background-color: rgb(236, 234, 234);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -139,7 +139,7 @@ footer{
 }
 
 .sectionContacto .Contacto-Titulo{
-    color: whitesmoke;
+    color: black;
     text-align: center;
     grid-column: span 3;
     grid-row: span 1;
@@ -148,7 +148,7 @@ footer{
 .sectionContacto .info{
     height: fit-content;
     width: fit-content;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     grid-column: span 1;
     grid-row: span 1;
 }
@@ -270,7 +270,7 @@ iframe{
     
     .sectionIndex .h3{
         padding-left: 10px;
-        color: white;
+        color: $color-texto;
         grid-column: span 1;
         grid-row: span 1;
     }

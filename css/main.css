@@ -21,7 +21,7 @@ header {
 
 /* estilos del texto */
 h1, h2, h3, h4, p {
-  color: #cccccc;
+  color: black;
   text-align: center; }
 
 .margin {
@@ -37,7 +37,7 @@ div a {
 
 /* estilos del fondo */
 body {
-  background-color: black;
+  background-color: #eceaea;
   background-repeat: no-repeat;
   background-size: contain; }
 
@@ -104,7 +104,7 @@ footer {
   grid-template-rows: 0.2fr 0.5fr 0.5fr; }
 
 .sectionContacto .Contacto-Titulo {
-  color: whitesmoke;
+  color: black;
   text-align: center;
   grid-column: span 3;
   grid-row: span 1; }
@@ -112,7 +112,7 @@ footer {
 .sectionContacto .info {
   height: fit-content;
   width: fit-content;
-  color: whitesmoke;
+  color: black;
   grid-column: span 1;
   grid-row: span 1; }
 
@@ -203,7 +203,7 @@ iframe {
     grid-row: span 1; }
   .sectionIndex .h3 {
     padding-left: 10px;
-    color: white;
+    color: black;
     grid-column: span 1;
     grid-row: span 1; }
   iframe {
