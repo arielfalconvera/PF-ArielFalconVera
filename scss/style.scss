@@ -290,13 +290,36 @@ iframe{
         grid-row: span 1;
         grid-column: span 1;
     }
+    /*Contacto*/
+    .sectionContacto{
+        margin-bottom: 50px;
+        grid-template-columns: 0.4fr 0.6fr;
+        grid-template-rows: 0.1fr 1fr 0.1fr;
+        grid-template-areas: 
+            "Contacto-titulo Contacto-titulo"
+            "redes Contacto-iframe"
+            "Contacto-texto Contacto-texto";
+    }
+    .sectionContacto .redes{
+        grid-area: redes;
+    }
+    .sectionContacto .Contacto-iframe{
+        grid-area: Contacto-iframe;
+    }
+    .sectionContacto .Contacto-texto{
+        padding: 0;
+        grid-area: Contacto-texto;
+    }
+    .sectionContacto .Contacto-Titulo{
+        grid-area: Contacto-titulo;
+    }
 }
 
 @media screen and (min-width:601px) and (max-width:1024px){
     /*SERVICIOS*/
     .sectionServicios{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows:0.4fr 1fr 0.4fr 1fr;
+        grid-template-rows:0.4fr 0.8fr 0.4fr 1fr;
         justify-content: center;
         justify-items: center;
         outline: 3px solid black;
@@ -363,4 +386,7 @@ iframe{
         margin: 20px;
         grid-area: img-seis;
     }
+
+
+
 }
