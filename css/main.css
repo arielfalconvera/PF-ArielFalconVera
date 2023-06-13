@@ -234,6 +234,7 @@ iframe {
   .sectionContacto .Contacto-Titulo {
     grid-area: Contacto-titulo; } }
 
+/* MEDIA QUERIS TABLET--------------------------------*/
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /*SERVICIOS*/
   .sectionServicios {
@@ -281,4 +282,19 @@ iframe {
     grid-area: img-cinco; }
   .contenedor .img-seis {
     margin: 20px;
-    grid-area: img-seis; } }
+    grid-area: img-seis; }
+  /*Contacto*/
+  .sectionContacto {
+    margin-bottom: 50px;
+    grid-template-columns: 0.4fr 0.6fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas: "Contacto-titulo Contacto-titulo" "redes Contacto-iframe" "Contacto-texto Contacto-texto"; }
+  .sectionContacto .redes {
+    grid-area: redes; }
+  .sectionContacto .Contacto-iframe {
+    grid-area: Contacto-iframe; }
+  .sectionContacto .Contacto-texto {
+    padding: 0;
+    grid-area: Contacto-texto; }
+  .sectionContacto .Contacto-Titulo {
+    grid-area: Contacto-titulo; } }
