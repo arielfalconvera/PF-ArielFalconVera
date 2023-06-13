@@ -85,7 +85,6 @@ footer{
     padding-top: $espaciado;
 }
 
-
 /*GRID*/
 /*Servicios*/
 .sectionServicios{
@@ -230,7 +229,7 @@ iframe{
 /* MEDIA QUERIS MOBILE--------------------------------*/
 @media screen and (min-width:0px) and (max-width:600px){
     .sectionServicios{
-        padding-top: 110px;
+        padding-top: $espaciado;
         grid-template-columns: 1fr;
         grid-template-rows: 0.4fr 1fr  0.4fr 1fr  0.4fr 1fr  0.4fr 1fr;
         justify-content: center;
@@ -239,11 +238,13 @@ iframe{
     }
     
     .sectionServicios .imagen-uno, .imagen-dos, .imagen-tres, .imagen-cuatro{
+        padding: 0;
         grid-column: span 1;
         grid-row: span 1;
     }
 
     .sectionServicios .texto-uno, .texto-dos, .texto-tres, .texto-cuatro{
+        padding: 0;
         grid-column: span 1;
         grid-row: span 1;
     }
