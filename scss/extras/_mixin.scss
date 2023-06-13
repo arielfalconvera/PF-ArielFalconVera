@@ -1,3 +1,4 @@
+//mixin para variar el tamaño del iframe en desktop y mobile
 @mixin iframe($width, $height){
     width: $width;
     height: $height;
